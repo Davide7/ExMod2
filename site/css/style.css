@@ -1,5 +1,5 @@
 
-*{
+  *{
 
     	box-sizing: border-box;
       font-family: Helvetica
@@ -21,8 +21,7 @@
     clear: both;
     margin-left: 100%;
     margin-top:0%;
-    padding:0px;
-    width: 15%;
+    width: 100px;
     height: 25px;
     }
 
