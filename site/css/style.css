@@ -1,5 +1,5 @@
 
-  *{
+*{
 
     	box-sizing: border-box;
       font-family: Helvetica
@@ -7,29 +7,47 @@
 
   h1{
 
-  	color: #FFCC66;
+  	color: black;
   	text-align: center;
   }
 
-  .span{
+  .prova{
+
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+    float: right;
+    background-color: Orange;
+    clear: both;
+    margin-left: 100%;
+    margin-top:0%;
+    padding:0px;
+    width: 15%;
+    height: 25px;
+    }
+
+  .ciao{
 
     width: 20%;
     height: auto;
-    background-color: #FFCC66;
+    background-color: white;
     color: #993300;
     text-align: center;
     padding: 2px;
     border: 1px solid black;
     float: right;
     margin-bottom: 5px;
-    clear: left;
-    padding: none;
+    clear: both;
 
+  }
+  .pulisci{
+
+    clear: both
   }
 
 
   p{
-
+    clear: both;
   	background-color:#822222;
   	text-align: justify;
   	color: white;
@@ -38,7 +56,12 @@
     border: 3px solid black;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 5px;
+  }
+
+  .spazio{
+
+    padding: -5px;
+
   }
 
 
@@ -63,12 +86,15 @@
   }
   .col-sm-4 {
     width: 33.33%;
+    overflow: hidden;
   }
   .col-sm-5 {
     width: 41.66%;
   }
   .col-sm-6 {
     width: 50%;
+    overflow: hidden;
+
   }
   .col-sm-7 {
     width: 58.33%;
